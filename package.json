@@ -9,17 +9,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconify/json": "^2.2.86",
     "element-plus": "^2.3.7",
+    "pinia": "^2.1.4",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "unplugin-icons": "^0.16.3",
     "vue": "^3.2.47",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.1",
     "@types/node": "^20.3.3",
     "@vitejs/plugin-vue": "^4.1.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.0.2",
+    "unplugin-vue-components": "^0.25.1",
     "vite": "^4.3.9",
     "vue-tsc": "^1.4.2"
   }
