@@ -3,8 +3,8 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    name: "home",
-    component: () => import("@/view/home/index.vue"),
+    name: "layout",
+    component: () => import("@/view/layout/index.vue"),
     children: [
       {
         path: "ts-view",
@@ -12,9 +12,14 @@ const routes: RouteRecordRaw[] = [
         component: () => import("@/view/tsView/index.vue"),
       },
       {
-        path: "other",
-        name: "other",
-        component: () => import("@/view/other/index.vue"),
+        path: "pinia",
+        name: "pinia",
+        component: () => import("@/view/pinia/index.vue"),
+      },
+      {
+        path: "video-preview",
+        name: "video-preview",
+        component: () => import("@/view/videoPreview/index.vue"),
       },
     ],
   },

@@ -10,6 +10,7 @@ declare module 'vue' {
     ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
     'IFlatColorIcons:like': typeof import('~icons/flat-color-icons/like')['default']
     'IFluentEmoji:loveLetter': typeof import('~icons/fluent-emoji/love-letter')['default']
+    'INotoV1:loveHotel': typeof import('~icons/noto-v1/love-hotel')['default']
     ISimpleLineIconsFrame: typeof import('~icons/simple-line-icons/frame')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
